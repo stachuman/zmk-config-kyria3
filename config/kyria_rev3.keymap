@@ -43,7 +43,7 @@
             &kp TAB   &kp Q &kp W &kp E    &kp R    &kp T                                                                                   &kp Y    &kp U    &kp I     &kp O   &kp P    &kp BACKSPACE
             &kp LCTRL &kp A &kp S &kp D    &kp F    &kp G                                                                                   &kp H    &kp J    &kp K     &kp L   &kp SEMI &kp SQT
             &kp LSHFT &kp Z &kp X &kp C    &kp V    &kp B    &mo NAVS         &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS &kp DEL         &kp N    &kp M    &kp COMMA &kp DOT &kp FSLH &kp MINUS
-                              &kp LGUI &to DEFAULT  &kp LALT &kp RET          &kp LEFT_BRACKET        &kp RIGHT_BRACKET     &kp SPC         &kp RALT &to NUMS &kp ESC
+                                 &kp LGUI &mo NUMS  &kp LALT &kp RET          &kp LEFT_BRACKET        &kp RIGHT_BRACKET     &kp SPC         &kp RALT &mo NUMS &kp ESC
             >;
 
             //bindings = <
@@ -63,7 +63,7 @@
             // | _ | _ |  %         |  ^        |  _      | _   | _   | _ |     | _   | _   | _   |  1  |  2    |  3   |     +         |   _ |
             //                      |  _        |  _      | _   | _   | _ |     | _   | _   | _   |    |  _    |
             bindings = <
-            &none &none &kp EXCL     &kp AT_SIGN &kp AMPS  &none                             &none &kp N7 &kp N8 &kp N9 &kp KP_EQUAL    &kp BSLH
+            &none &none &kp EXCL     &kp AT_SIGN &kp AMPS  &none                             &kp PRINTSCREEN &kp N7 &kp N8 &kp N9 &kp KP_EQUAL    &kp BSLH
             &none &none &kp HASH     &kp DOLLAR  &kp TILDE &none                             &none &kp N4 &kp N5 &kp N6 &kp KP_MULTIPLY &kp GRAVE
             &none &none &kp PERCENT  &kp CARET   &none     &none &none &none     &none &none &none &kp N1 &kp N2 &kp N3 &kp KP_PLUS     &none
                                      &none       &none     &none &none &none     &none &none &kp N0 &none  &none
@@ -80,7 +80,7 @@
             //                        |  BT_NXT  |  BT0       | BT1        | BT2       | BT3  |          | _   | _   | _      |  _      |  _  |
             bindings = <
             &bt BT_CLR  &kp F1 &kp F2 &kp F3     &kp F4       &kp F5                                                  &none    &kp UP    &kp UP  &none     &none &none
-            &none       &none  &none  &none      &none        &none                                                   &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none
+            &none       &kp F6 &kp F7 &kp F8     &kp F9       &kp F10                                               &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none
             &none       &none  &none  &none      &none        &none        &none        &none             &none &none &none    &kp DOWN &kp DOWN  &none    &none &none
                                       &bt BT_NXT &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3      &none &none &none    &none    &none
             >;
