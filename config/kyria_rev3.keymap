@@ -37,13 +37,13 @@
             // |  TAB  |  Q  |  W  |  E   |  R     |  T     |                                                                              |  Y     |  U      |  I    |  O   |   P      |  Backspace|
             // | SHIFT |  A  |  S  |  D   |  F     |  G     |                                                                              |  H     |  J      |  K    |  L   |   ;      |  SHIFT '  |
             // |  CTL  |  Z  |  X  |  C   |  V     |  B     |  NAVS          |   (                |  |       )             |   DEL NAVS    |  N     |  M      |  ,    |  .   |   /      |   - _     |
-            //                     | GUI  | CMD    |  ALT   |  ENTER         |   [{               |  |       }]            |   SPACE       |  LALT  | NUM     |  ESC  |
+            //                     | GUI  | CMD    |  ALT   |  ENTER         |   [{               |  |       }]            |   SPACE       |  RALT  | NUM     |  ESC  |
 
             bindings = <
             &kp TAB   &kp Q &kp W &kp E    &kp R    &kp T                                                                                   &kp Y    &kp U    &kp I     &kp O   &kp P    &kp BACKSPACE
-            &kp LSHFT &kp A &kp S &kp D    &kp F    &kp G                                                                                   &kp H    &kp J    &kp K     &kp L   &kp SEMI &kp SQT
-            &kp LCTRL &kp Z &kp X &kp C    &kp V    &kp B    &kp NAVS         &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS &kp DEL         &kp N    &kp M    &kp COMMA &kp DOT &kp FSLH &kp MINUS
-                                  &kp LGUI &kp LCMD &kp LALT &kp RET          &kp LEFT_BRACKET        &kp RIGHT_BRACKET     &kp SPC         &kp TAB  &kp NUMS &kp ESC
+            &kp LCTRL &kp A &kp S &kp D    &kp F    &kp G                                                                                   &kp H    &kp J    &kp K     &kp L   &kp SEMI &kp SQT
+            &kp LSHFT &kp Z &kp X &kp C    &kp V    &kp B    &kp NAVS         &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS &kp DEL         &kp N    &kp M    &kp COMMA &kp DOT &kp FSLH &kp MINUS
+                                  &kp LGUI &kp LCMD &kp LALT &kp RET          &kp LEFT_BRACKET        &kp RIGHT_BRACKET     &kp SPC         &kp RALT &kp NUMS &kp ESC
             >;
 
             //bindings = <
